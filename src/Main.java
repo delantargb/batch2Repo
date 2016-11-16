@@ -328,7 +328,7 @@ public class Main {
                 randomAllFriends1    = allFriends.get(new Random().nextInt(allFriends.size()));
                 randomAllFriends2    = allFriends.get(new Random().nextInt(allFriends.size()));
             }
-                System.out.println("=== randomFriend relation randomFriend ===");
+                System.out.println("=== randomFriend relation randomFriend  ===");
                 System.out.print(randomAllFriends1 + " " + randomRelations + " " + randomAllFriends2);
 
 
