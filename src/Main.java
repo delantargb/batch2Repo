@@ -308,7 +308,7 @@ public class Main {
 */
 
 /**Random data from List**/
-/*
+
         List<String> boyFriends     = MyMethods.getMyFriends();
         List<String> relation       = MyMethods.getRelation();
         List<String> girlfriends    = MyMethods.getGirlfriends();
@@ -330,7 +330,7 @@ public class Main {
             }
                 System.out.println("=== randomFriend relation randomFriend ===");
                 System.out.print(randomAllFriends1 + " " + randomRelations + " " + randomAllFriends2);
-*/
+
 
 
 
