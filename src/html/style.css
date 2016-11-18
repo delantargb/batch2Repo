@@ -1,0 +1,129 @@
+
+html{
+
+    font-family: "arial";
+    background-color: #ffffff;
+}
+body {
+    font-size: large;
+    background-color: #444444;
+    border-style: solid;
+    margin: 5px 20% 5px 20%;
+}
+
+header{
+    background-color: #999999;
+    font-size: large;
+    border-style:double;
+    margin: 5px 5px 5px 5px;
+}
+.headercolor{
+    background-color: #cccccc;
+}
+
+#header1{
+     background-color: #999999;
+     font-size: large;
+     border-style:double;
+     margin: 5px 5px 5px 5px;
+ }
+#header5{
+    font-size: large;
+    border-style:double;
+    margin: 5px 5px 0px 5px;
+}
+
+#nav1{
+    border: double;
+    margin: 5px 5px 5px 5px;
+    background-color: #cccccc;
+}
+
+#footer1 {
+    font-size: large;
+    border: double;
+    margin: 5px 5px 5px 5px;
+}
+#nav2{
+    background-color: #cccccc;
+    border: double;
+    text-align: center;
+    margin: 5px 5px 5px 5px;
+    padding-top: 150px;
+    padding-bottom:150px;
+}
+
+#section1{
+    background-color: #999999;
+    font-size: large;
+    border: double;
+    padding-bottom: 14px;
+    margin: 10px 75% 5px 5px;
+}
+#section2{
+    background-color: #999999;
+    font-size: large;
+    border: double;
+    margin: -446px 5px 5px 26%;
+}
+.p1{
+    background-color: #cccccc;
+    font-size: large;
+    border-style:double;
+    margin: 5px 5px 5px 5px;
+
+}
+#article1{
+    background-color: #777777;
+    font-size: large;
+    border-style:double;
+    margin: 5px 5px 5px 5px;
+}
+#article2{
+    background-color: #777777;
+     font-size: large;
+     border-style:double;
+     margin: 5px 5px 5px 5px;
+ }
+#footer4{
+    background-color: #cccccc;
+    font-size: large;
+    border: double;
+    margin: 0px 5px 5px 5px;
+
+}
+.foots {
+    font-size: large;
+    background-color: #cccccc;
+    border: double;
+    margin: 5px 5px 5px 5px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+
+
+#p{
+    font-size: large;
+    background-color: #cccccc;
+    border: double;
+    margin: 5px 30% 5px 5px;
+    padding-top: 20px;
+    padding-bottom: 27px;
+ }
+#aside1{
+    background-color: #cccccc;
+    font-size: large;
+    border: double;
+    margin: -77px 5px 5px 71%;
+    padding-top: 20px;
+    padding-bottom: 26px;
+}
+footer{
+
+    background-color: #666666;
+    font-size: large;
+    border: double;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 5px 5px 5px 5px;
+}
