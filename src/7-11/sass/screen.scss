@@ -1,0 +1,124 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+/*
+
+  border-radius: 10px; //curve
+
+*/
+
+
+
+//variables
+
+
+
+
+html{
+  background: white;
+  font-family: arial;
+}
+
+body{
+  background: #ffffff url('../img/header_bg.fw.png')repeat-x;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+header {
+  #header_bg {
+    background: white;
+    display: block;
+    padding: 1px 30px 10px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -5px;
+  }
+}
+
+nav {
+  border: 3px solid green;
+  width: 70%;
+  padding: 16px 16px 20px 16px;
+  margin: 30px auto;
+  ul {
+    text-align: center;
+    li {
+      display: inline-block;
+      list-style: none;
+      a {
+        color: green;
+        padding: 16px 50px 16px 50px;
+        text-decoration: none;
+        &:visited{
+          color: green;
+        }
+        &:hover {
+          text-decoration: underline;
+          color: green;
+        }
+        &:active {
+          color: green;
+        }
+      }
+    }
+  }
+}
+
+h1{
+  font-weight: bold;
+  font-size: 45px;
+}
+
+p{
+  padding-top: 20px;
+  font-size: 18px;
+}
+form{
+  margin-top: 80px;
+  background: dimgray;
+  padding: 60px 0px 16px 0px;
+  width: 60%;
+  height: 500px;
+  font-size: 27px;
+
+}
+
+footer{
+  font-size: 100px;
+  background-color: #006B41;
+  height: 100px;
+  margin-top: 50px;
+}
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}

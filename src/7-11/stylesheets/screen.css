@@ -67,39 +67,132 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 13, ../sass/screen.scss */
+/*
+
+  border-radius: 10px; //curve
+
+*/
+/* line 20, ../sass/screen.scss */
+html {
+  background: white;
+  font-family: arial;
+}
+
+/* line 25, ../sass/screen.scss */
 body {
-  width: 5px;
+  background: #ffffff url("../img/header_bg.fw.png") repeat-x;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
 }
 
-/* line 26, ../sass/screen.scss */
-footer, header {
-  border: solid 1px red;
-  clear: both;
+/* line 32, ../sass/screen.scss */
+header #header_bg {
+  background: white;
   display: block;
-  margin: 5px 0px;
-  padding: 5px 10px;
+  padding: 1px 30px 10px 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -5px;
 }
 
-/* line 31, ../sass/screen.scss */
-#nav .side {
-  float: right;
-  windows: 10px;
-}
-
-/* line 61, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
 nav {
-  background: red;
+  border: 3px solid green;
+  width: 70%;
+  padding: 16px 16px 20px 16px;
+  margin: 30px auto;
 }
-/* line 63, ../sass/screen.scss */
+/* line 47, ../sass/screen.scss */
 nav ul {
-  width: auto;
+  text-align: center;
 }
-/* line 65, ../sass/screen.scss */
+/* line 49, ../sass/screen.scss */
 nav ul li {
+  display: inline-block;
   list-style: none;
 }
-/* line 67, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 nav ul li a {
-  text-decoration: blink;
+  color: green;
+  padding: 16px 50px 16px 50px;
+  text-decoration: none;
+}
+/* line 56, ../sass/screen.scss */
+nav ul li a:visited {
+  color: green;
+}
+/* line 59, ../sass/screen.scss */
+nav ul li a:hover {
+  text-decoration: underline;
+  color: green;
+}
+/* line 63, ../sass/screen.scss */
+nav ul li a:active {
+  color: green;
+}
+
+/* line 71, ../sass/screen.scss */
+h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+/* line 76, ../sass/screen.scss */
+p {
+  padding-top: 20px;
+  font-size: 18px;
+}
+
+/* line 80, ../sass/screen.scss */
+form {
+  margin-top: 80px;
+  background: dimgray;
+  padding: 60px 0px 16px 0px;
+  width: 60%;
+  height: 500px;
+  font-size: 27px;
+}
+
+/* line 90, ../sass/screen.scss */
+footer {
+  font-size: 100px;
+  background-color: #006B41;
+  height: 100px;
+  margin-top: 50px;
+}
+
+/* line 96, ../sass/screen.scss */
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/* line 106, ../sass/screen.scss */
+input[type=submit] {
+  width: 20%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* line 116, ../sass/screen.scss */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* line 120, ../sass/screen.scss */
+div {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
 }
