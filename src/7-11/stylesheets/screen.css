@@ -2,6 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+@import url("https://fonts.googleapis.com/css?family=PT+Sans");
 /* line 5, ../../../../../../../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -75,7 +76,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 20, ../sass/screen.scss */
 html {
   background: white;
-  font-family: arial;
+  font-family: 'PT Sans', sans-serif;
 }
 
 /* line 25, ../sass/screen.scss */
@@ -96,73 +97,57 @@ header #header_bg {
   margin-top: -5px;
 }
 
-/* line 42, ../sass/screen.scss */
+/*
 nav {
   border: 3px solid green;
   width: 70%;
   padding: 16px 16px 20px 16px;
   margin: 30px auto;
-}
-/* line 47, ../sass/screen.scss */
-nav ul {
-  text-align: center;
-}
-/* line 49, ../sass/screen.scss */
-nav ul li {
-  display: inline-block;
-  list-style: none;
-}
-/* line 52, ../sass/screen.scss */
-nav ul li a {
-  color: green;
-  padding: 16px 50px 16px 50px;
-  text-decoration: none;
-}
-/* line 56, ../sass/screen.scss */
-nav ul li a:visited {
-  color: green;
-}
-/* line 59, ../sass/screen.scss */
-nav ul li a:hover {
-  text-decoration: underline;
-  color: green;
-}
-/* line 63, ../sass/screen.scss */
-nav ul li a:active {
-  color: green;
-}
+  ul {
+    text-align: center;
+    li {
+      display: inline-block;
+      list-style: none;
+      a {
+        color: green;
+        padding: 16px 50px 16px 50px;
+        text-decoration: none;
+        &:visited{
+          color: green;
+        }
+        &:hover {
+          text-decoration: underline;
+          color: green;
+        }
+        &:active {
+          color: green;
+        }
+      }
+    }
+  }
+}*/
+/*
 
-/* line 71, ../sass/screen.scss */
-h1 {
+h1{
   font-weight: bold;
   font-size: 45px;
 }
 
-/* line 76, ../sass/screen.scss */
-p {
+p{
   padding-top: 20px;
   font-size: 18px;
 }
-
-/* line 80, ../sass/screen.scss */
-form {
+form{
   margin-top: 80px;
   background: dimgray;
   padding: 60px 0px 16px 0px;
   width: 60%;
   height: 500px;
   font-size: 27px;
+
 }
 
-/* line 90, ../sass/screen.scss */
-footer {
-  font-size: 100px;
-  background-color: #006B41;
-  height: 100px;
-  margin-top: 50px;
-}
 
-/* line 96, ../sass/screen.scss */
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -173,7 +158,6 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-/* line 106, ../sass/screen.scss */
 input[type=submit] {
   width: 20%;
   background-color: #4CAF50;
@@ -184,15 +168,91 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
 }
-
-/* line 116, ../sass/screen.scss */
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-/* line 120, ../sass/screen.scss */
 div {
   border-radius: 5px;
   background-color: #f2f2f2;
   padding: 20px;
+}
+
+*/
+/*
+
+nav {
+  #nav2 {
+    ul {
+      li {
+        #li2 {
+          text-align: center;
+          border: 3px solid green;
+          width: 70%;
+          padding: 16px 16px 20px 16px;
+          margin: 30px auto;
+          list-style: none;
+          color: white;
+          a {
+            &:visited {
+              color: white;
+            }
+            &:hover {
+              text-decoration: underline;
+              color: white;
+            }
+            &:active {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+*/
+/* line 160, ../sass/screen.scss */
+footer {
+  background-color: #006B41;
+  margin-top: 50px;
+  height: 230px;
+}
+
+/* line 166, ../sass/screen.scss */
+nav#nav2 {
+  display: inline-block;
+  font-size: 35px;
+  text-align: left;
+  color: white;
+  padding: 30px 5% 0px 5%;
+}
+/* line 172, ../sass/screen.scss */
+nav#nav2 ul {
+  padding-top: 20px;
+}
+/* line 174, ../sass/screen.scss */
+nav#nav2 ul li {
+  font-family: "arial";
+  text-align: left;
+  font-size: 25px;
+  list-style: none;
+  color: white;
+}
+/* line 180, ../sass/screen.scss */
+nav#nav2 ul li a {
+  color: green;
+  text-decoration: none;
+}
+/* line 183, ../sass/screen.scss */
+nav#nav2 ul li a:visited {
+  color: white;
+}
+/* line 186, ../sass/screen.scss */
+nav#nav2 ul li a:hover {
+  text-decoration: underline;
+  color: white;
+}
+/* line 190, ../sass/screen.scss */
+nav#nav2 ul li a:active {
+  color: white;
 }
